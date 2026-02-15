@@ -1,0 +1,35 @@
+:root {
+  --font-main: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --color-bg-dark: #0f0f13;
+  --color-bg-card: #1a1a24;
+  --color-accent: #646cff;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #a1a1aa;
+  --transition-speed: 0.3s;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--color-bg-dark);
+  color: var(--color-text-primary);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.app-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
